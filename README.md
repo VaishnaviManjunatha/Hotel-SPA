@@ -1,4 +1,4 @@
-**Hotel Application**
+###Hotel Application**
 
 
 A simple hotel application built with React, TypeScript, and Vite. The application displays a list of hotels and allows users to view details for each hotel. It is developed using JSON data, but an attempt has been made to use MSW (Mock Service Worker) for simulating API calls.
