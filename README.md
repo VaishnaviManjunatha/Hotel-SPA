@@ -3,23 +3,25 @@
 
 A simple hotel application built with React, TypeScript, and Vite. The application displays a list of hotels and allows users to view details for each hotel. It is developed using JSON data, but an attempt has been made to use MSW (Mock Service Worker) for simulating API calls.
 
-Features
-Hotel List Screen: Displays a list of available hotels with their name, location, rating, image, dates of travel, and room details.
-Hotel Detail Screen: Displays detailed information about a selected hotel.
-Routing: Implemented using React Router for navigating between the list and detail screens.
-Mock API: The project uses JSON data for hotel information but includes an attempt to use MSW (Mock Service Worker) to simulate API responses.
-Styling: Basic layout using Bootstrap for quick and responsive styling.
-Technologies Used
-React: JavaScript library for building user interfaces.
-TypeScript: Typed superset of JavaScript for better developer tooling.
-Vite: A build tool that provides fast development server and optimized production builds.
-React Router: For navigation between pages.
-MSW (Mock Service Worker): For simulating API responses without a real backend (not fully functional, JSON data used for now).
-Bootstrap: For responsive design and styling.
-Getting Started
+### Features
+- **Hotel List Screen**: Displays a list of available hotels with their name, location, rating, image, dates of travel, and room details.
+- **Hotel Detail Screen**: Displays detailed information about a selected hotel.
+- **Routing**: Implemented using React Router for navigating between the list and detail screens.
+- **Mock API**: The project uses JSON data for hotel information but includes an attempt to use MSW (Mock Service Worker) to simulate API responses.
+- **Styling**: Basic layout using Bootstrap for quick and responsive styling.
+
+### Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Typed superset of JavaScript for better developer tooling.
+- **Vite**: A build tool that provides fast development server and optimized production builds.
+- **React Router**: For navigation between pages.
+- **MSW (Mock Service Worker)**: For simulating API responses without a real backend (not fully functional, JSON data used for now).
+- **Bootstrap**: For responsive design and styling.
+  
+### Getting Started
 To run the application locally, follow the instructions below:
 
-Prerequisites
+### Prerequisites
 Make sure you have the following installed:
 
 Node.js (version 14 or higher)
@@ -53,31 +55,12 @@ The project uses JSON data to simulate the API responses, but there is an attemp
 
 Ensure that the MSW mock API is properly set up to simulate API calls. If you encounter issues with MSW, the data is available in the src/data/HotelData.json file.
 
-Project Structure
-Here's a brief overview of the folder structure:
 
-bash
-Copy code
-/hotel-booking-app
-│
-├── /src
-│   ├── /components      # Reusable components like HotelList, HotelDetails, etc.
-│   ├── /data           # Json data like HotelData.json
-│   ├── /mocks          # Attempt at MSW mock API setup 
-│   ├── App.tsx         # Main App component
-│   ├── index.tsx       # Entry point for the React application
-│  
-│
-├── /public
-│   └── index.html      # HTML template
-│
-├── package.json        # Project metadata and dependencies
-├── tsconfig.json       # TypeScript configuration
-└── README.md           # Project documentation
-File Details:
-HotelList.tsx: Displays the list of hotels.
-HotelDetail.tsx: Displays detailed information for a selected hotel.
-HotelData.json: Contains Json/mock data for hotels.
-msw/browser.ts: MSW service worker setup to mock API calls.
-App.tsx: The main component that renders the app and routes.
+
+### File Details:
+- **HotelList.tsx**: Displays the list of hotels.
+- **HotelDetail.tsx**: Displays detailed information for a selected hotel.
+- **HotelData.json**: Contains Json/mock data for hotels.
+- **msw/browser.ts**: MSW service worker setup to mock API calls.
+- **App.tsx**: The main component that renders the app and routes.
 
