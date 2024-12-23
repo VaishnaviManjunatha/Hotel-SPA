@@ -29,7 +29,7 @@ npm (comes with Node.js)
 1. Clone the Repository
 First, clone this repository to your local machine:
 
---git clone https://github.com/your-username/hotel-booking-app.git
+--git clone [https://github.com/VaishnaviManjunatha/Hotel-SPA.git]
 
 2. Install Dependencies
 Navigate into the project folder and install the dependencies:
